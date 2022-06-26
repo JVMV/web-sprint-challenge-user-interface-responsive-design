@@ -81,14 +81,11 @@ h3 {
     font-size: 5rem;
 }
 
-p {
+p, a {
     font-size: 3rem;
     color: white;
 }
 
-a {
-    color: white;
-}
 
 /* header section */
 header {
