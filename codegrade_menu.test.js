@@ -103,7 +103,7 @@ describe('menu.html', () => {
         }
     });
 
-    it('renders three to five menu-items per menu-section', () => {
+    it('renders three to five menu-item per menu-section', () => {
         const menuSections = Array.from(container.querySelectorAll('.menu-section'));
         if(menuSections === undefined || menuSections === null || menuSections.length === 0) fail(`Inappropriate number of menu sections.`);
         

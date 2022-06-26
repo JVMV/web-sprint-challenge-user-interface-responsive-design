@@ -81,8 +81,12 @@ h3 {
     font-size: 5rem;
 }
 
-p, a {
+p {
     font-size: 3rem;
+    color: white;
+}
+
+a {
     color: white;
 }
 
@@ -115,6 +119,12 @@ header div nav {
 header div nav div {
     width: 100%;
 }
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid 1px teal; */
+    width: 100%;
+}
 .header-nav {
     height: 29%;
     /* border: solid 5px green; */
@@ -122,11 +132,10 @@ header div nav div {
     background-color: rgb(0, 0, 0, .8);
 }
 .header-nav i {
-    /* border: solid 1px pink; */
-
-    font-size: 50px;
+    /* border: solid 2px pink; */
+    font-size: 3.6rem;
     align-self: center;
-    margin: 1% 2.5% 0 2.5%;
+    margin: 0% 2.5%;
 }
 
 /* spacers */
